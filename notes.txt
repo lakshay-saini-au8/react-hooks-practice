@@ -1,0 +1,7 @@
+1. useState => manage State
+2. useEffect => replace componentDidMount , componentDidUpdate, componentWillUnmount 
+                it works from top to bottom to work like componentDidMount we have to pass empty arrya in our dependencies, and if we pass some data inside that array if that state changes the useEffect will be called again
+3. useReducer => replace redux Reducer
+4. useContext => redux like state management
+5. useCallback => cache functions
+6. useMemo => allows us to get values from that cached functions
